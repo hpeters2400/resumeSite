@@ -1,0 +1,358 @@
+/* CSS Document */
+
+/* Colors:
+
+Off White: #F1F2E9
+Off Black: #070D06
+Grey: #414141
+Lighter Grey: #555555
+
+
+Fonts:
+
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+/***** CSS Reset *****/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/***** Box Model Fix *****/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: url("../images/com64BG.jpg") top left;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***** Header Section *****/
+
+header {
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	font-family: 'Merriweather';
+	font-size: 3em;
+	margin-top: -25px;
+	padding-top: 1em;
+	padding-left: 85px;
+	text-shadow: 10px 10px 15px #070D06;
+	color: #F1F2E9;
+}
+
+header h2 {
+	font-family: 'Merriweather';
+	font-size: 3em;
+	margin-top: -25px;
+	padding-top: 1em;
+	padding-left: 130px;
+	text-shadow: 10px 10px 15px #070D06;
+	color: #F1F2E9;
+}
+
+
+header nav {
+	background: #A0A69899;
+	padding: 20px 30px 5px 0px; /* TRouBLe */
+	min-height: 75px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+header nav li {
+	display: inline-block;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin: 0px 20px;
+}
+
+header nav a {
+	color: #070D06;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+	font-size: 2em;
+}
+
+header nav a:hover {
+	color: #414141;
+	text-decoration: underline;
+}
+
+/***** End of Header Section *****/
+
+/***** Main *****/
+
+/***** Projects Section *****/
+#projects {
+	margin: 0;
+	padding: 5px;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+	text-align: center;
+	
+}
+
+#projects img {
+	float: left;
+	margin-right: 100px;
+	justify-content: center;
+}
+
+#prjHeader {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+	background-color: #41414199;
+	padding: 2%;
+	color: #F1F2E9;
+}
+
+/***** About Section *****/
+#about {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#about img {
+	float: right;
+	margin-left: 100px;
+	justify-content: center;
+}
+
+#about p {
+	margin-top: 75px;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+#about h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	padding-left: 110px;
+}
+
+/***** Button *****/
+
+button {
+	margin: 2% 45%;
+	background-color: #000000;
+	padding: 1.5%;
+	border-radius: 8px;
+}
+
+button a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #ededed;
+}
+
+button:hover {
+	text-decoration: underline;
+	background-color: #414141;
+}
+
+/***** Contact Section *****/
+
+#contact {
+	margin: 0;
+	padding: 5%;
+	min-height: 200px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#contact p {
+	margin-top: 3%;
+	text-align: center;
+	font-size: 1.75em;
+}
+
+#contact h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+}
+
+#contact a {
+	color: #F1F2E9;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+}
+
+#contact a:hover {
+	color: #414141;
+	text-decoration: underline;
+}
+
+/***** Objectives Section *****/
+
+#objectives {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#objectives img {
+	float: right;
+	margin-left: 100px;
+	justify-content: center;
+}
+
+#objectives p {
+	margin-top: 75px;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+#objectives h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	padding-left: 110px;
+}
+
+/***** Skills Section *****/
+
+#skills {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#skills p {
+	margin-top: 1.5%;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+#skills h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+}
+
+#skills ul {
+	display: inline-block;
+	padding: 2%;
+}
+
+#skills li {
+	margin-top: 1.5%;
+	justify-content: center;
+	font-size: 1.5em;
+}
+
+/***** Education Section *****/
+
+#education {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #41414199;
+	font-family: 'Roboto Mono';
+	color: #F1F2E9;
+}
+
+#education img {
+	float: left;
+	margin-left: 2%;
+	width: 30%
+}
+
+#education p {
+	margin: 1.5%;
+	font-size: 1.5em;
+}
+
+#education h2 {
+	font-family: 'Merriweather';
+	font-size: 2em;
+	text-align: center;
+}
+
+/***** End of Main Section *****/
+
+/***** Footer Section *****/
+
+footer {
+	background: #070D0688;
+	color: #F1F2E9;
+	text-align: center;
+	min-height: 400px;
+}
+
+footer nav {
+	background: #F1F2E999;
+	padding: 10px 0px 10px 0px; /* TRouBLe */
+	min-height: 75px;
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+footer nav li {
+	display: inline-block;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	margin: 0 1.5em;
+	padding: 10px 0px 0px;
+}
+
+footer nav a {
+	color: #070D06;
+	text-decoration: none;
+	padding: 15px 0 0 15px;
+	font-size: 1.5em;
+}
+
+footer nav a:hover {
+	color: #414141;
+	text-decoration: underline;
+}
+
+footer h3,h4,h5,h6,p {
+	font-family: 'Roboto Mono';
+}
